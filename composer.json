@@ -5,8 +5,12 @@
     "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
-            "Jankx\\ReduxOptionFramework\\": "src/"
-        }
+            "Jankx\\Redux\\": "src/"
+        },
+        "files": [
+            "./redux-core/framework.php",
+            "./bootstrap.php"
+        ]
     },
     "authors": [
         {
